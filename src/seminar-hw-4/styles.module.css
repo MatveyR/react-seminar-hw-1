@@ -1,0 +1,43 @@
+.app {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-item.completed {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.task-item input {
+    margin-right: 10px;
+}
+
+.task-item button {
+    margin-left: auto;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.current-task {
+    margin-top: 20px;
+}
